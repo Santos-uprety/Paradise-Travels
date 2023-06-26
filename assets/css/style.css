@@ -52,5 +52,70 @@ h1, h2{
     line-height: 80px;
 }
 
+/* image section */
+
+#main-image{
+    height: 700px;
+    width: 100%;
+    background: url('../images/main\ images.jpg') no-repeat center center;
+    
+}
+
+#outside-image{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+#main-image{
+    position: relative;
+  }
+  
+  .my-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+  }
+  .my-header h2{
+    font-size: 5vmin;
+   
+
+}
+.my-header h2 span{
+    color: burlywood;
+    
+}
+.quotes{
+    width: 150px;
+    height:4px;
+
+}
+.my-header p{
+    font-size: 2vmin;
+    color: black;
+    font-family:'Roboto';
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+}
+.button{
+    color:whitesmoke;
+    background-color: hotpink;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 2vmin;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: blue;
+    transition: 0.5;
+    opacity: 0.5;
+}
+   
+
+
 
 
