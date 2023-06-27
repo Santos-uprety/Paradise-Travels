@@ -187,6 +187,70 @@ h1, h2{
         
     }
 }
+/* offer section*/
+
+.topic{
+    text-align: center;
+    margin-top: 25px;
+    }
+    .topic h1{
+        font-size: 50px;
+        color: #36455c;
+        margin-bottom: 10px;
+    }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+
+
+}
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-section .card{
+    flex: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0,0, 0.2);
+}
+.content-section .card img{
+    width: 100%;
+    height: auto;
+}
+.content-section .card h4{
+    margin: 25px 0px;
+    font-size: 25px;
+    font-family: 'Poppins';
+    color: #166211;
+}
+.content-section .card p{
+    font-size:20px;
+    margin-bottom: 25px;
+    padding:0px 10px;
+}
+.content-section .card button{
+    margin-bottom: 20px;
+    color:whitesmoke;
+    background-color: hotpink;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 1em;
+}
+.content-section .card button:hover{
+    background-color: blue;
+}
+@media screen and (max-width:768px){
+    .content-section{
+        flex-direction: column;
+    }
+}
     
 
 
