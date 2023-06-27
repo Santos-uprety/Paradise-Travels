@@ -32,14 +32,14 @@ h1, h2{
 #menu-item li{
     float: right;
     list-style-type: none;
-    margin-top: 35px;
+    margin-top: 25px;
    
 }
 #menu-item a{
     text-decoration: none;
     color: brown;
     font-size: 120%;
-    margin: 30px;
+    margin: 25px;
 }
 #menu-item a:hover{
     background:1px lightpink;
@@ -49,7 +49,7 @@ h1, h2{
     opacity: 1;
 }
 #menu-item, #sign{
-    line-height: 80px;
+    line-height: 60px;
 }
 
 /* image section */
@@ -209,6 +209,7 @@ h1, h2{
 
 
 }
+
 .content-section{
     display: flex;
     justify-content: center;
@@ -231,7 +232,7 @@ h1, h2{
     color: #166211;
 }
 .content-section .card p{
-    font-size:20px;
+    font-size:16px;
     margin-bottom: 25px;
     padding:0px 10px;
 }
@@ -250,6 +251,85 @@ h1, h2{
     .content-section{
         flex-direction: column;
     }
+}
+/* footer section */
+
+footer{
+    background-color: #111;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:whitesmoke;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social-links a i{
+    font-size: 2em;
+    color:black;
+    opacity: 0.9;
+}
+.social-links a:hover{
+    background-color: blueviolet;
+    transition: 0.2s;
+
+}
+.footernav{
+    margin: 30px 0;
+
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footernav ul li a{
+    color: whitesmoke;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.2s;
+
+}
+.footernav ul li a:hover{
+    opacity: 1;
+}
+.copyright{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+.copyright p{
+    color: whitesmoke;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media screen and(max-width:768px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    
 }
     
 
