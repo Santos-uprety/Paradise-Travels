@@ -331,6 +331,27 @@ footer{
     }
     
 }
+
+/* Album page */
+#album{
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 2px;
+    margin:0px 20px 5px;
+    border: 20px black;
+   
+   
+
+   
+}
+#album img{
+    width: 100%;
+}
+ img:hover{
+    -webkit-filter: brightness(1. 15);
+}
+
     
 
 
