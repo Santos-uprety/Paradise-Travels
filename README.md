@@ -1,108 +1,291 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# PARADISE TRAVELS Responsive Website
+![Website Mock Up](assets/images/pic9.jpg)
+The live website can be found [here](https://santos-uprety.github.io/Paradise-Travels/)
 
-Welcome Santos-uprety uprety,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Purpose
+This project was created for the purpose of First Project Portfolio for The Code Institute's Full Stack Development course.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+## Table of Contents
+* [User Experience Design (UX)](#User-Experience-Design)
+    * [The Strategy Plane](#The-Strategy-Plane)
+    * [User stories](#User-Stories)
+    * [The Scope Plane](#The-Scope-Plane)
+    * [The Structure Plane](#The-Structure-Plane)
+    * [The Skeleton Plane](#The-Skeleton-Plane)
+    * [Wireframes](#Wireframes)
+    * [The Surface Plane](#The-Surface-Plane)
+    * [Design](#Design)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+            * [Colour Scheme](#Colour-Scheme)
+            * [Typography](#Typography)
+            * [Imagery](#Imagery)
+    * [Differences to Design](#Differences-to-Design)
+- [Features](#Features)
+    * [Existing Features](#Existing-Features)
+    * [Future Features](#Features-Left-to-Implement)
+* [Technologies](#Technologies)
+* [Testing](#Testing)
 
-`python3 -m http.server`
+    * [Test Strategy](#Test-Strategy)
+    * [Test Results](#Test-Results)
+    * [Isses and Resolutions](#Issues-and-Resolutions-to-issues-found-during-testing)
+*   [Deployment](#Deployment)
 
-A blue button should appear to click: _Make Public_,
+    * [Project Creation](#Project-Creation)
+    * [GitHub Pages](#Using-Github-Pages)
+    * [Locally](Run-Locally)
 
-Another blue button should appear to click: _Open Browser_.
+* [Credits](#Credits)
+  * [Content](#Content)
+  * [Acknowledgements](#Acknowledgements)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+****
 
-A blue button should appear to click: _Make Public_,
+## User Experience Design
+### **The Strategy Plane**
+This website was created to test my  knowledge of HTMLand CSS and to offer users some experience with the website that is purely focused on trekking trips.
 
-Another blue button should appear to click: _Open Browser_.
+Objectives of the sites:
+* To implement the basic skills I have learnt in HTML, CSS and see for myself.
+* To create interactive site with enough information with simple layouts and easy to navigate.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+#### User stories
+* As a user, I want to grasp the site's main purpose quickly.
+* As a user, I want to be able to navigate through the pages easily.
+* As a user, I want to see high resolution images.
+* As a user, I want this website to be responsive. 
+* As a user, I want to be able to submit enquiry form.
+* As a user, I want to have enough details about trekking packages offered on the website.
+* As a user, I want to get detailed information about the tour provider.
+* As a user, I want to be able to navigate to the social sites easily.
+* As a user, I want to see great collection of images from various location.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### **The Scope Plane**
+Features planned:
+* Page Heading - A page title that summarizes the page content.
+* Paradise Travels.
+* Home - Main content of the page
+* About us - Short description of service provider.
+* We offer - A list of offered trek packages.
+* Album - Photo gallery containing pictures from different locations.
+* Enquiry - Enquiry form to get in touch with provider.
+* Footer Items - Contact Information and links to social sites.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+**Feature Importance/Effort** <br>
+![Features](assets/images/scope.jpg)
 
-------
+### **The Structure Plane**
 
-## Release History
+User Story:
+> As a user, I want to grasp the site's main purpose quickly.
+ 
+ Acceptance Criteria:
+* Page heading displayed with text 'Paradise Travels'
+* Sub heading displayed with text 'Explore The Majestic World Of Himalaya'
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Description:<br>
+The website will display a large title saying 'Paradise Travels' and a subtitle saying 'Explore The Majestic World Of Himalaya'. This will help the visitors understand the purpose of the site right away.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+User Story:
+> As a user, I want to be able to navigate through the pages easily.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ Acceptance Criteria:
+ * Navigation bar is visible throughout all the pages.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Description:<br>
+I used the float property to align the elements on the web page. I also adjusted the margin values to create some space between them. This way, I achieved a clean and balanced layout for the design.
+ 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+User Story:
+> As a user, I want to see high resolution images.
+ 
+ Acceptance Criteria:
+ * The images should be clear, sharp and not blurry or pixelated.
+ * The images should be relevant to the content and the theme of the website.
+ * The images should be optimized for fast loading and minimal bandwidth usage.
+    
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Description:<br>
+My website requires high quality images, which I source from pixels.com. I reduce their dimensions using Adobe express, which optimizes them for web display.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+User Story:
+> As a user, I want this website to be responsive. 
+ 
+ Acceptance Criteria:
+ * The website should adapt to different screen sizes and orientations.
+ * The website should load quickly and smoothly on various devices and browsers.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+Description:<br>
+My web design approach relies on media queries and flex properties to achieve responsiveness. This means that the layout can adapt to different screen sizes and orientations without compromising the user experience.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+User Story:
+> As a user, I want to be able to submit enquiry form.
+ 
+ Acceptance Criteria:
+ * The user interface should allow the user to input the required information and submit it with a simple click. The acceptance criteria for this feature are the input fields are clear and intuitive and the submit button is visible and responsive.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Description:<br>
+To center an element horizontally and vertically, I applied the following CSS properties to it: position: absolute, which removes the element from the normal document flow and allows me to position it relative to its closest positioned ancestor; and transform: translate(-50%, -50%), which shifts the element by half of its own width and height in the opposite direction. This way, the element's center is aligned with its parent's center.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+User Story:
+> As a user, I want to have enough details about trekking packages offered on the website.
+ 
+ Acceptance Criteria:
+ * The website should display the name, location and duration of each trekking package.
+ * The website should provide a brief description of the itinerary, highlights and inclusions of each trekking package.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Description:<br>
+To access the full details of the available offers, users need to select the view deals button. The view deals button is designed to help users compare different options and find the best deal for their needs.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+User Story:
+> As a user, I want to get detailed information about the tour provider.
+ 
+ Acceptance Criteria:
+ * The tour provider's name, location, motivation and background are clearly displayed on the page.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Description:<br>
+I applied the flex property to create a responsive layout for the content. The flex property allows me to control how the elements are arranged and aligned within a container. I used flex-direction, justify-content and align-items to display the text and image in the center of the screen. I also added a read more button below the text.
 
-------
+User Story:
+> As a user, I want to be able to navigate to the social sites easily.
+ 
+ Acceptance Criteria:
+ * The footer should have a menu bar with icons for different social sites, such as Facebook, Twitter, Instagram, etc.
 
-## FAQ about the uptime script
+Description:<br>
+I wanted to add some social media icons to my website, so I decided to use font-awesome. To use them, I just had to include a link to the font-awesome CDN in the head section of my HTML file, and then add the appropriate class names to the elements I wanted to display as icons. 
 
-**Why have you added this script?**
+User Story:
+> As a user, I want to see great collection of images from various location.
+ 
+ Acceptance Criteria:
+ * The images should be high-quality and relevant to the location.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+Description:<br>
+ I decided to use Mason design to create a dynamic and responsive gallery album that adapts to different screen sizes and devices. It also gives me the flexibility to customize the appearance and spacing of the photos.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### **The Skeleton Plane**
+#### Wireframes
+Mobile and Desktop view
+![Wireframes](assets/images/wireframe.JPG)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### **The Surface Plane**
+### Design
 
-**So….?**
+#### Colour Scheme
+Body colour: Grey<br>
+Header and navigation colour: Brown [#36455C]<br> 
+Hover background colour: lightpink, hotpink, whitesmoke, blue, [#0084ff]<br>
+H2 colour: [#111]<br>
+H2 span colour: burlywood<br>
+Paragraph colour: black, [#666]<br>
+Social links icons background colour: blueviolet<br>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+#### Typography
+The headers and body on all pages throughout the Website are using the [https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@100;300;400;500;700&display=swap]
 
-**Can I opt out?**
+#### Imagery
+I would like to acknowledge that all the images in the website are extracted from pixels.com.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+#### Differences to Design
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+All aspects specified in the Structure Plane were executed according to plan.
 
-**Anything more?**
+****
+## Features
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Existing Features
 
----
+Home
+* Heading
+* Navigation bar
+* Subheading
+* Let's explore button
+* About us with Read more button
+* We offer (packages with details and View details button)
+* Footer with social links icons
+Album
+* Heading
+* Navigation bar
+* Images
+* Footer with social links icons
+Enquiry
+* Heading
+* Navigation bar
+* Enquiry form
+* Footer with social links icons
 
-Happy coding!
+### Features Left to Implement
+* To make the Explore button and the View Deals buttons more functional, I need to add an anchor tag to each of them. The anchor tag should link to the relevant page or section that provides more information about the destination or the offer.Explore button could link to a page that shows the attractions, culture, and history of the place, while the View Deals button could link to a page that shows the prices, itinerary, and duration of the trip. Additionally, I should add a hover effect to the images in the Album page, so that when the user moves the cursor over them, they can see a brief caption or description of the image. This will make the Album page more interactive and engaging for the user.
+
+****
+## Technologies used
+* [HTML](https://en.wikipedia.org/wiki/HTML)
+	* This project uses HTML as the main language used to complete the structure of the Website.
+* [CSS](https://en.wikipedia.org/wiki/CSS)
+	* This project uses custom written CSS to style the Website.
+* [Google Fonts](https://fonts.google.com/)
+	* Google fonts are used throughout the project to import the *Playfair Display SC* and *Rokkitt* fonts.
+* [GitHub](https://github.com/)
+	* GithHub is the hosting site used to store the source code for the Website and [Git Pages](https://pages.github.com/) is used for the deployment of the live site.
+* [Git](https://gitpod.io/)
+	* Git is used as version control software to commit and push code to the GitHub repository where the source code is stored.   
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
+* [Techsini](http://techsini.com/multi-mockup/index.php)
+    * tecnisih.com Multi Device Website Mockup Generator was used to create the Mock up image in this README.
+
+****
+## Testing
+
+### Test Strategy
+#### **Summary**
+
+Testing is done to validate HTML and CSS codes.
+
+HTML code must pass through the [W3C HTML Validator](https://validator.w3.org/).
+
+CSS code must pass through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+#### **High Level Test Cases**
+
+
+## Deployment
+
+### Project Creation
+The first step in this project was to set up a new repository using the Gitpod full template from Code Institute. I gave the repository a name and made it public. Then I clicked on the button to create a new repository from the template. Next, I opened the Gitpod editor and selected the repository I had just created. I added an index.html file and a folder called assets that contained a css folder. Inside the css folder, I created a style.css file.
+
+The following commands were used for version control throughout the project:
+* git add filename - This command was used to add files to the staging area before committing.
+* git commit -m "commit message explaining the updates" - This command was used to to commit changes to the local repository.
+* git push - This command is used to push all committed changes to the GitHub repository.
+
+### Using Github Pages
+1. Navigate to the GitHub [Repository:](https://santos-uprety.github.io/Paradise-Travels/)
+1. Click the 'Settings' Tab.
+1. Scroll Down to the Git Hub Pages Heading.
+1. Select 'Main Branch' as the source.
+1. Click the Save button.
+1. Click on the link to go to the live deployed page.
+
+### Run Locally
+1. Navigate to the GitHub [Repository:](https://santos-uprety.github.io/Paradise-Travels/)
+1. Click the Code drop down menu.
+1. Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+1. Open your developement editor of choice and open a terminal window in a directory of your choice.
+1. Use the 'git clone' command in terminal followed by the copied git URL.
+1. A clone of the project will be created locally on your machine.
+
+****
+## Credits
+Credit to https://www.w3schools.com/ and https://developer.mozilla.org/.
+
+### Acknowledgements
+I would like to thank my tutor Ronan for his support and insights.
+****

@@ -8,13 +8,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: grey
+    color: grey 
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: poppins, sans-serif;
-    color: rgb(17, 15, 15);
+    
 
 
 
@@ -30,7 +29,7 @@ h2 {
 }
 
 #sign span {
-    color: rgb(2, 23, 41);
+    color: #36455c;
 }
 
 #menu-item {
@@ -95,6 +94,7 @@ h2 {
 
 .my-header h2 {
     font-size: 5vmin;
+    color: #111;
 
 
 }
@@ -114,7 +114,7 @@ h2 {
     font-size: 2vmin;
     color: black;
     font-family: 'Roboto';
-    margin-top: 20px 0;
+    margin-top: 20px;
     font-weight: 500;
     margin-bottom: 20px;
 
@@ -146,11 +146,12 @@ h2 {
 .heading h1 {
     font-size: 50px;
     margin-bottom: 10px;
+    color: #36455c;
 
 }
 
 .heading p {
-    font-size: 20px;
+    font-size: 18px;
     color: #666;
     margin-bottom: 50px;
 
@@ -186,8 +187,8 @@ h2 {
 
 .read-more {
     display: inline-block;
-    color: #faff;
-    ;
+    color: lightpink;
+    
     background-color: #0084ff;
     border: none;
     border-radius: 3px;
@@ -196,8 +197,8 @@ h2 {
 }
 
 .read-more:hover {
-    background-color: #006dd6;
-    transition: 0.3;
+    background-color:  #0084ff;
+    transition: 0.3s;
     opacity: 0.5;
 
 }
@@ -219,7 +220,6 @@ h2 {
 .container {
     width: 100%;
     min-height: 100vh;
-    background-color: #f7f7f7;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -250,7 +250,7 @@ h2 {
     margin: 25px 0px;
     font-size: 25px;
     font-family: 'Poppins';
-    color: #166211;
+    color: #36455c;
 }
 
 .content-section .card p {
@@ -375,19 +375,21 @@ footer {
 
 .enquiry-container {
     clear: both;
-    width: 100%;
     height: 100vh;
+    width: 100%;
     background-color: #0084ff;
     background: url(../images/enquiry\ pic2.jpg) no-repeat;
     background-size: cover;
 }
 
 .inside-container {
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 450px;
+    width: 350px;
+    height: 50%;
+   
 
 
 }
@@ -395,7 +397,7 @@ footer {
 .inside-container h1 {
     font-size: 35px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 300px;
     color: whitesmoke;
 }
 
@@ -437,7 +439,7 @@ footer {
 
 /* media query for desktop size screen section */
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
 
     /*nav section */
     #sign {
@@ -473,14 +475,12 @@ footer {
         margin: 0px 20px 5px;
     }
 
-    /* enquiry page */
-    .enquiry-container {
-        width: 100%;
-        height: 100%;
+    
+        
     }
 
 
-}
+
 
 /*media query for iPad size screen*/
 @media screen and (max-width:1023px) and (min-width: 768px) {
@@ -501,12 +501,33 @@ footer {
         font-size: 40px;
         margin-bottom: 10px;
     }
+    .about-us{
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-us img{
+        max-width: 100%;
+        margin-bottom: 30px;
+        
+    }
+    .content{
+        padding: 15px;
+    }
+    .read-more{
+        padding: 10px 15px;
+    }
 
     /* offer section */
     .topic {
         font-size: 40px;
         margin-bottom: 10px;
     }
+    
+    }
+    
+    
+    
+
 
     /*footer section */
     footer {
@@ -530,12 +551,14 @@ footer {
     }
 
     /*enquiry page */
-    .enquiry-container {
+    
+    .inside-container{
         width: 90%;
-        height: 80vh;
+        max-width: 450px;
     }
+
     .inside-container h1 {
-        font-size: 30px;
+        font-size: 28px;
         margin-top: 30px;
     }
     
@@ -544,14 +567,16 @@ footer {
         margin: 10px 0;
     }
     
-    .inside-container input {
-        font-size: 16px;
-        padding:8px;
+    .inside-container button {
+        font-size: 14px;
+        padding:8px 12px;
+        margin: 14px;
 }
+
 
 /* media query for Mobile */
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
 
     #menu-item, #sign{
         line-height: 30px;
@@ -592,25 +617,27 @@ footer {
 
     /*about section */
     .heading h1 {
-        font-size: 30px;
+        font-size: 20px;
     }
     .about-us{
+       
         flex-direction: column;
-        width: 100%;
     }
     .about-us img{
-        flex: 0 0 flex;
-        width: 100%;
+       max-width: 100%;
+       flex: 0 100%;
     }
     .content p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .content {
-        padding: 20px;
+        padding: 15px;
+        flex: 0 100%;
+        max-width: 100%;
     }
     .read-more{
         padding: 10px 15px;
-        font-size:16px ;
+        font-size:12px ;
     }
 
     /*offer section */
@@ -619,7 +646,7 @@ footer {
     }
 
     .topic {
-        font-size: 30 px;
+        font-size: 30px;
         margin-bottom: 5px;
     }
 
@@ -645,17 +672,17 @@ footer {
 
     /*enquiry page */
     .inside-container {
-        width: 100%;
+        width: 90%;
         padding: 0 20px;
     }
     
     .inside-container h1 {
-        font-size: 30px;
+        font-size: 28px;
         margin-top: 30px;
     }
     
     .inside-container p {
-        font-size: 18px;
+        font-size: 16px;
         margin: 10px 0;
     }
     
@@ -670,3 +697,81 @@ footer {
         padding: 8px 12px;
 }
 }
+@media screen and (max-width: 480px) {
+    
+  
+    #sign {
+      font-size: 200%;
+    }
+  
+    #menu-item a {
+      font-size: 100%;
+      margin: 0 10px;
+    }
+  
+    .my-header h2 {
+      font-size: 4vmin;
+    }
+  
+    .my-header p {
+      font-size: 1.5vmin;
+    }
+  
+    .button {
+      font-size: 1.5vmin;
+      padding: 8px 12px;
+    }
+  
+    .heading h1 {
+      font-size: 40px;
+    }
+  
+    .about-us {
+      flex-direction: column;
+    }
+  
+    .about-us img {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .content p {
+      font-size: 16px;
+    }
+  
+    .content-section .card {
+      margin: 10px;
+    }
+  
+    .content-section .card h4 {
+      font-size: 20px;
+    }
+  
+    .content-section .card p {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  
+    .content-section .card button {
+      padding: 8px 10px;
+      font-size: 0.9em;
+    }
+  
+    .social-links a {
+      padding: 6px;
+      margin: 6px;
+    }
+  
+    .social-links a i {
+      font-size: 1.5em;
+    }
+  
+    .footernav ul li a {
+      margin: 10px;
+      font-size: 16px;
+    }
+  
+    .designer {
+      margin: 0px 3px;
+    }
+  }
