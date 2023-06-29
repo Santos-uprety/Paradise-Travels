@@ -1,5 +1,5 @@
 # PARADISE TRAVELS Responsive Website
-![Website Mock Up](assets/images/pic9.jpg)
+![Website Mock Up](assets/images/testing%203.png)
 The live website can be found [here](https://santos-uprety.github.io/Paradise-Travels/)
 
 
@@ -74,8 +74,6 @@ Features planned:
 * Enquiry - Enquiry form to get in touch with provider.
 * Footer Items - Contact Information and links to social sites.
 
-**Feature Importance/Effort** <br>
-![Features](assets/images/scope.jpg)
 
 ### **The Structure Plane**
 
@@ -203,19 +201,31 @@ All aspects specified in the Structure Plane were executed according to plan.
 ### Existing Features
 
 Home
+
 * Heading
 * Navigation bar
 * Subheading
 * Let's explore button
+![Features](assets/images/nav%20section.png)
 * About us with Read more button
+![Features](assets/images/about%20section.png)
 * We offer (packages with details and View details button)
+![features](assets/images/offer%20section.png)
 * Footer with social links icons
+![Features](assets/images/footer%20section.png)
+
+
 Album
+![Features](assets/images/image%20section.png)
+
 * Heading
 * Navigation bar
 * Images
 * Footer with social links icons
+
 Enquiry
+![Features](assets/images/enquiry%20section.png)
+
 * Heading
 * Navigation bar
 * Enquiry form
