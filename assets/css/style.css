@@ -701,11 +701,14 @@ footer {
     
   
     #sign {
-      font-size: 200%;
+      font-size: 100%;
+    }
+    #menu-item li{
+        
     }
   
     #menu-item a {
-      font-size: 100%;
+      font-size: 80%;
       margin: 0 10px;
     }
   
