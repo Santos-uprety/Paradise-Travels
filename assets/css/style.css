@@ -22,7 +22,7 @@ h1, h2 {
 /* nav section */
 #sign {
     float: left;
-    font-size: 280%;
+    font-size: 260%;
     color: brown;
 
 
@@ -93,7 +93,7 @@ h1, h2 {
 }
 
 .my-header h2 {
-    font-size: 5vmin;
+    font-size: 4vmin;
     color: #111;
 
 
@@ -495,6 +495,9 @@ footer {
         height: 500px;
 
     }
+    .my-header h2{
+        font-size:260% ;
+    }
 
     /* about section */
     .heading h1 {
@@ -702,7 +705,8 @@ footer {
   
     #sign {
       font-size: 100%;
-    }
+}
+
   
     #menu-item a {
       font-size: 80%;
@@ -710,7 +714,7 @@ footer {
     }
   
     .my-header h2 {
-      font-size: 4vmin;
+      font-size: 2vmin;
     }
   
     .my-header p {
