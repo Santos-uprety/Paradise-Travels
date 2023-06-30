@@ -318,7 +318,9 @@ The following commands were used for version control throughout the project:
 
 ****
 ## Credits
-Credit to https://www.w3schools.com/, https://developer.mozilla.org/ and Code Institute Love Running project.
+Credit to https://www.w3schools.com/, https://developer.mozilla.org/ and Code Institute Love Running project. For Readme.md file credit to Daisy-McG.
+
+
 
 
 ### Acknowledgements
