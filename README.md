@@ -1,5 +1,5 @@
 # PARADISE TRAVELS Responsive Website
-![Website Mock Up](assets/images/testing%203.png)
+![Website Mock Up](assets/images/testing.png)
 The live website can be found [here](https://santos-uprety.github.io/Paradise-Travels/)
 
 
